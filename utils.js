@@ -76,248 +76,78 @@ exports.getSlug = (name) => {
     return this.deleteSign(name).toLowerCase().trim().replace(/ /g, "-")
 }
 
-exports.getInfoProvince = (data) => {
-    var typeProvince
-    if (data.type == "tinh") {
-        typeProvince = "Tỉnh"
-    } else {
-        typeProvince = "Thành Phố"
-    }
-    return {
-        name: data.name,
-        type: data.type,
-        slug: this.getSlug(data.name),
-        name_with_type: typeProvince + " " + data.name,
-    }
-}
-
-exports.getInfoDistricts = (data) => {
-    var typeProvince
-    switch (data.type) {
-        case "thanh-pho":
-            typeProvince = "Thành Phố"
-            break;
-        case "quan":
-            typeProvince = "Quận"
-            break;
-        case "thi-xa":
-            typeProvince = "Thị Xã"
-            break;
-        case "huyen":
-            typeProvince = "Huyện"
-            break;
-    }
-    return {
-        name: data.name,
-        type: data.type,
-        slug: this.getSlug(data.name),
-        name_with_type: typeProvince + " " + data.name,
-    }
-}
-
-exports.getInfoWards = (data) => {
-    var typeProvince
-    switch (data.type) {
-        case "phuong":
-            typeProvince = "Phường"
-            break;
-        case "thi-tran":
-            typeProvince = "Thị Trấn"
-            break;
-        case "xa":
-            typeProvince = "Xã"
-            break;
-    }
-    return {
-        name: data.name,
-        type: data.type,
-        slug: this.getSlug(data.name),
-        name_with_type: typeProvince + " " + data.name,
-    }
-}
-
-exports.getPlaceLevel = (type) => {
-    if (type.indexOf('street_number') != -1 || type.indexOf('premise') != -1) {
-        return 0
-    }
-
-    if (type.indexOf('route') != -1) {
-        return 1
-    }
-
-    if (type.indexOf('neighborhood') != -1) { // ap / khu pho / thon
-        return 2
-    }
-
-    if (type.indexOf('administrative_area_level_3') != -1 || type.indexOf('sublocality') != -1) { // phuong / xa / thi tran
-        return 3
-    }
-
-    if (type.indexOf('administrative_area_level_2') != -1 || type.indexOf('locality') != -1) { // quan / huyen / thi xa / thanh pho
-        return 4
-    }
-
-    if (type.indexOf('administrative_area_level_1') != -1) { // tinh / thanh pho
-        return 5
-    }
-
-    if (type.indexOf('country') != -1) { // quoc gia
-        return 6
-    }
-}
-
-//#region Find the Longest Common Substring
-exports.longestCommonSubstring = (str1, str2) => {
-    if (!str1 || !str2) {
+exports.extractName = (name) => {
+    if (name.indexOf('Tỉnh') >= 0) {
         return {
-            length: 0,
-            sequence: '',
-            offset: 0
+            type: 'Tỉnh',
+            name: name.replace(/Tỉnh /g, '')
         }
     }
 
-    var sequence = ''
-    var str1Length = str1.length
-    var str2Length = str2.length
-    var num = new Array(str1Length)
-    var maxlen = 0
-    var lastSubsBegin = 0
-
-    for (var i = 0; i < str1Length; i++) {
-        var subArray = new Array(str2Length)
-        for (var j = 0; j < str2Length; j++) {
-            subArray[j] = 0
-        }
-        num[i] = subArray
-    }
-    var thisSubsBegin = null
-    for (i = 0; i < str1Length; i++) {
-        for (j = 0; j < str2Length; j++) {
-            if (str1[i] !== str2[j]) {
-                num[i][j] = 0
-            } else {
-                if ((i === 0) || (j === 0)) {
-                    num[i][j] = 1
-                } else {
-                    num[i][j] = 1 + num[i - 1][j - 1]
-                }
-
-                if (num[i][j] > maxlen) {
-                    maxlen = num[i][j]
-                    thisSubsBegin = i - num[i][j] + 1
-                    if (lastSubsBegin === thisSubsBegin) { // if the current LCS is the same as the last time this block ran
-                        sequence += str1[i]
-                    } else { // this block resets the string builder if a different LCS is found
-                        lastSubsBegin = thisSubsBegin
-                        sequence = '' // clear it
-                        sequence += str1.substr(lastSubsBegin, (i + 1) - lastSubsBegin)
-                    }
-                }
-            }
+    if (name.indexOf('Thành phố') >= 0 || name.indexOf('Thành Phố') >= 0) {
+        return {
+            type: 'Thành phố',
+            name: name.replace(/Thành phố /g, '').replace(/Thành Phố /g, '')
         }
     }
-    return {
-        length: maxlen,
-        sequence: sequence,
-        offset: thisSubsBegin
-    }
-}
-//#endregion
 
-exports.mergeObjects = function (obj1, obj2) {
-    var obj3 = {};
-    for (var attrname in obj1) {
-        obj3[attrname] = obj1[attrname];
+    if (name.indexOf('Quận') >= 0) {
+        return {
+            type: 'Quận',
+            name: name.replace(/Quận /g, '')
+        }
     }
-    for (var attrname in obj2) {
-        obj3[attrname] = obj2[attrname];
+
+    if (name.indexOf('Thị xã') >= 0 || name.indexOf('Thị Xã') >= 0) {
+        return {
+            type: 'Thị xã',
+            name: name.replace(/Thị xã /g, '').replace(/Thị Xã /g, '')
+        }
     }
-    return obj3;
+
+    if (name.indexOf('Huyện') >= 0) {
+        return {
+            type: 'Huyện',
+            name: name.replace(/Huyện /g, '')
+        }
+    }
+
+    if (name.indexOf('Phường') >= 0) {
+        return {
+            type: 'Phường',
+            name: name.replace(/Phường /g, '')
+        }
+    }
+
+    if (name.indexOf('Thị trấn') >= 0 || name.indexOf('Thị Trấn') >= 0) {
+        return {
+            type: 'Thị trấn',
+            name: name.replace(/Thị trấn /g, '').replace(/Thị Trấn /g, '')
+        }
+    }
+
+    if (name.indexOf('Xã') >= 0) {
+        return {
+            type: 'Xã',
+            name: name.replace(/Xã /g, '')
+        }
+    }
+
+    return `*${name}`;
 }
 
-exports.execute = async (commands1, commands2) => {
-    await exec(commands1, (err, stdout, stderr) => {
-        if (err) {
-            console.log(err)
-        } else {
-            console.log(stdout, stderr)
-        }
-    });
-    await exec(commands2, (err, stdout, stderr) => {
-        if (err) {
-            console.log(err)
-        } else {
-            console.log(stdout, stderr)
-        }
-    });
-}
-
-exports.computeSimilarPercentOf2Strings = function (s1, s2) {
-    var m = 0;
-
-    // Exit early if either are empty.
-    if (s1.length === 0 || s2.length === 0) {
-        return 0;
-    }
-
-    // Exit early if they're an exact match.
-    if (s1 === s2) {
-        return 1;
-    }
-
-    var range = (Math.floor(Math.max(s1.length, s2.length) / 2)) - 1,
-        s1Matches = new Array(s1.length),
-        s2Matches = new Array(s2.length);
-
-    for (let i = 0; i < s1.length; i++) {
-        var low = (i >= range) ? i - range : 0,
-            high = (i + range <= s2.length) ? (i + range) : (s2.length - 1);
-
-        for (let j = low; j <= high; j++) {
-            if (s1Matches[i] !== true && s2Matches[j] !== true && s1[i] === s2[j]) {
-                ++m;
-                s1Matches[i] = s2Matches[j] = true;
-                break;
-            }
-        }
-    }
-
-    // Exit early if no matches were found.
-    if (m === 0) {
-        return 0;
-    }
-
-    // Count the transpositions.
-    var k = 0, n_trans = 0;
-
-    for (var i = 0; i < s1.length; i++) {
-        if (s1Matches[i] === true) {
-            for (var j = k; j < s2.length; j++) {
-                if (s2Matches[j] === true) {
-                    k = j + 1;
-                    break;
-                }
-            }
-
-            if (s1[i] !== s2[j]) {
-                ++n_trans;
-            }
-        }
-    }
-
-    var weight = (m / s1.length + m / s2.length + (m - (n_trans / 2)) / m) / 3,
-        l = 0,
-        p = 0.1;
-
-    if (weight > 0.7) {
-        while (s1[l] === s2[l] && l < 4) {
-            ++l;
-        }
-
-        weight = weight + l * p * (1 - weight);
-    }
-
-    return weight;
+exports.removeHCType = (name) => {
+    return name.replace(/Tỉnh /g, '')
+        .replace(/Thành phố /g, '')
+        .replace(/Thành Phố /g, '')
+        .replace(/Quận /g, '')
+        .replace(/Thị xã /g, '')
+        .replace(/Thị Xã /g, '')
+        .replace(/Huyện /g, '')
+        .replace(/Phường /g, '')
+        .replace(/Thị trấn /g, '')
+        .replace(/Thị Trấn /g, '')
+        .replace(/Xã /g, '')
 }
 
 exports.generateString = (length) => {
