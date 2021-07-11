@@ -1,1274 +1,506 @@
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e12e"), 
-    "name" : "Lào Cai", 
-    "slug" : "lao-cai", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Lào Cai", 
-    "code" : "10", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e12f"), 
-    "name" : "Điện Biên", 
-    "slug" : "dien-bien", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Điện Biên", 
-    "code" : "11", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e130"), 
-    "name" : "Lai Châu", 
-    "slug" : "lai-chau", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Lai Châu", 
-    "code" : "12", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e131"), 
-    "name" : "Sơn La", 
-    "slug" : "son-la", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Sơn La", 
-    "code" : "14", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e132"), 
-    "name" : "Yên Bái", 
-    "slug" : "yen-bai", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Yên Bái", 
-    "code" : "15", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e133"), 
-    "name" : "Hoà Bình", 
-    "slug" : "hoa-binh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Hoà Bình", 
-    "code" : "17", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e134"), 
-    "name" : "Thái Nguyên", 
-    "slug" : "thai-nguyen", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Thái Nguyên", 
-    "code" : "19", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e135"), 
-    "name" : "Lạng Sơn", 
-    "slug" : "lang-son", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Lạng Sơn", 
-    "code" : "20", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e136"), 
-    "name" : "Quảng Ninh", 
-    "slug" : "quang-ninh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Quảng Ninh", 
-    "code" : "22", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e137"), 
-    "name" : "Bắc Giang", 
-    "slug" : "bac-giang", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bắc Giang", 
-    "code" : "24", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e138"), 
-    "name" : "Phú Thọ", 
-    "slug" : "phu-tho", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Phú Thọ", 
-    "code" : "25", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e139"), 
-    "name" : "Vĩnh Phúc", 
-    "slug" : "vinh-phuc", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Vĩnh Phúc", 
-    "code" : "26", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e13a"), 
-    "name" : "Bắc Ninh", 
-    "slug" : "bac-ninh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bắc Ninh", 
-    "code" : "27", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e13b"), 
-    "name" : "Hải Dương", 
-    "slug" : "hai-duong", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Hải Dương", 
-    "code" : "30", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e13c"), 
-    "name" : "Hải Phòng", 
-    "slug" : "hai-phong", 
-    "type" : "thanh-pho", 
-    "name_with_type" : "Thành phố Hải Phòng", 
-    "code" : "31", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e13d"), 
-    "name" : "Hưng Yên", 
-    "slug" : "hung-yen", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Hưng Yên", 
-    "code" : "33", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e13e"), 
-    "name" : "Thái Bình", 
-    "slug" : "thai-binh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Thái Bình", 
-    "code" : "34", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e13f"), 
-    "name" : "Hà Nam", 
-    "slug" : "ha-nam", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Hà Nam", 
-    "code" : "35", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e140"), 
-    "name" : "Nam Định", 
-    "slug" : "nam-dinh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Nam Định", 
-    "code" : "36", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e141"), 
-    "name" : "Ninh Bình", 
-    "slug" : "ninh-binh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Ninh Bình", 
-    "code" : "37", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e142"), 
-    "name" : "Thanh Hóa", 
-    "slug" : "thanh-hoa", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Thanh Hóa", 
-    "code" : "38", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e143"), 
-    "name" : "Nghệ An", 
-    "slug" : "nghe-an", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Nghệ An", 
-    "code" : "40", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e144"), 
-    "name" : "Hà Tĩnh", 
-    "slug" : "ha-tinh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Hà Tĩnh", 
-    "code" : "42", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e145"), 
-    "name" : "Quảng Bình", 
-    "slug" : "quang-binh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Quảng Bình", 
-    "code" : "44", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e146"), 
-    "name" : "Quảng Trị", 
-    "slug" : "quang-tri", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Quảng Trị", 
-    "code" : "45", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e147"), 
-    "name" : "Thừa Thiên Huế", 
-    "slug" : "thua-thien-hue", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Thừa Thiên Huế", 
-    "code" : "46", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e148"), 
-    "name" : "Đà Nẵng", 
-    "slug" : "da-nang", 
-    "type" : "thanh-pho", 
-    "name_with_type" : "Thành phố Đà Nẵng", 
-    "code" : "48", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e149"), 
-    "name" : "Quảng Nam", 
-    "slug" : "quang-nam", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Quảng Nam", 
-    "code" : "49", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e14a"), 
-    "name" : "Quảng Ngãi", 
-    "slug" : "quang-ngai", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Quảng Ngãi", 
-    "code" : "51", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e14b"), 
-    "name" : "Bình Định", 
-    "slug" : "binh-dinh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bình Định", 
-    "code" : "52", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e14c"), 
-    "name" : "Phú Yên", 
-    "slug" : "phu-yen", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Phú Yên", 
-    "code" : "54", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e14d"), 
-    "name" : "Khánh Hòa", 
-    "slug" : "khanh-hoa", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Khánh Hòa", 
-    "code" : "56", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e14e"), 
-    "name" : "Ninh Thuận", 
-    "slug" : "ninh-thuan", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Ninh Thuận", 
-    "code" : "58", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e14f"), 
-    "name" : "Bình Thuận", 
-    "slug" : "binh-thuan", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bình Thuận", 
-    "code" : "60", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e150"), 
-    "name" : "Kon Tum", 
-    "slug" : "kon-tum", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Kon Tum", 
-    "code" : "62", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e151"), 
-    "name" : "Gia Lai", 
-    "slug" : "gia-lai", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Gia Lai", 
-    "code" : "64", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e152"), 
-    "name" : "Đắk Lắk", 
-    "slug" : "dak-lak", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Đắk Lắk", 
-    "code" : "66", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e153"), 
-    "name" : "Đắk Nông", 
-    "slug" : "dak-nong", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Đắk Nông", 
-    "code" : "67", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e154"), 
-    "name" : "Lâm Đồng", 
-    "slug" : "lam-dong", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Lâm Đồng", 
-    "code" : "68", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e155"), 
-    "name" : "Bình Phước", 
-    "slug" : "binh-phuoc", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bình Phước", 
-    "code" : "70", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e156"), 
-    "name" : "Tây Ninh", 
-    "slug" : "tay-ninh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Tây Ninh", 
-    "code" : "72", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e157"), 
-    "name" : "Bình Dương", 
-    "slug" : "binh-duong", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bình Dương", 
-    "code" : "74", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e158"), 
-    "name" : "Đồng Nai", 
-    "slug" : "dong-nai", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Đồng Nai", 
-    "code" : "75", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e159"), 
-    "name" : "Bà Rịa - Vũng Tàu", 
-    "slug" : "ba-ria-vung-tau", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bà Rịa - Vũng Tàu", 
-    "code" : "77", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e15a"), 
-    "name" : "Hồ Chí Minh", 
-    "slug" : "ho-chi-minh", 
-    "type" : "thanh-pho", 
-    "name_with_type" : "Thành phố Hồ Chí Minh", 
-    "code" : "79", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e15b"), 
-    "name" : "Long An", 
-    "slug" : "long-an", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Long An", 
-    "code" : "80", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e15c"), 
-    "name" : "Tiền Giang", 
-    "slug" : "tien-giang", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Tiền Giang", 
-    "code" : "82", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e15d"), 
-    "name" : "Bến Tre", 
-    "slug" : "ben-tre", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bến Tre", 
-    "code" : "83", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e15e"), 
-    "name" : "Trà Vinh", 
-    "slug" : "tra-vinh", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Trà Vinh", 
-    "code" : "84", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e15f"), 
-    "name" : "Vĩnh Long", 
-    "slug" : "vinh-long", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Vĩnh Long", 
-    "code" : "86", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e160"), 
-    "name" : "Đồng Tháp", 
-    "slug" : "dong-thap", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Đồng Tháp", 
-    "code" : "87", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e161"), 
-    "name" : "An Giang", 
-    "slug" : "an-giang", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh An Giang", 
-    "code" : "89", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e162"), 
-    "name" : "Kiên Giang", 
-    "slug" : "kien-giang", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Kiên Giang", 
-    "code" : "91", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e163"), 
-    "name" : "Cần Thơ", 
-    "slug" : "can-tho", 
-    "type" : "thanh-pho", 
-    "name_with_type" : "Thành phố Cần Thơ", 
-    "code" : "92", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e164"), 
-    "name" : "Hậu Giang", 
-    "slug" : "hau-giang", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Hậu Giang", 
-    "code" : "93", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e165"), 
-    "name" : "Sóc Trăng", 
-    "slug" : "soc-trang", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Sóc Trăng", 
-    "code" : "94", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e166"), 
-    "name" : "Bạc Liêu", 
-    "slug" : "bac-lieu", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bạc Liêu", 
-    "code" : "95", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e167"), 
-    "name" : "Cà Mau", 
-    "slug" : "ca-mau", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Cà Mau", 
-    "code" : "96", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e168"), 
-    "name" : "Hà Giang", 
-    "slug" : "ha-giang", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Hà Giang", 
-    "code" : "02", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e169"), 
-    "name" : "Cao Bằng", 
-    "slug" : "cao-bang", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Cao Bằng", 
-    "code" : "04", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e16a"), 
-    "name" : "Hà Nội", 
-    "slug" : "ha-noi", 
-    "type" : "thanh-pho", 
-    "name_with_type" : "Thành phố Hà Nội", 
-    "code" : "01", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e16b"), 
-    "name" : "Bắc Kạn", 
-    "slug" : "bac-kan", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Bắc Kạn", 
-    "code" : "06", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5f59e10c91ac73a21074e16c"), 
-    "name" : "Tuyên Quang", 
-    "slug" : "tuyen-quang", 
-    "type" : "tinh", 
-    "name_with_type" : "Tỉnh Tuyên Quang", 
-    "code" : "08", 
-    "createdAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "createdBy" : ObjectId("5f34d43af697736fc8791199"), 
-    "isDeleted" : false, 
-    "updatedAt" : ISODate("2019-01-01T07:00:00.000+0700"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7")
-}
-{ 
-    "_id" : ObjectId("5fae043be737bc4b7a947644"), 
-    "isDeleted" : true, 
-    "name" : "TTT", 
-    "type" : "tinh", 
-    "slug" : "ttt", 
-    "name_with_type" : "Tỉnh TTT", 
-    "code" : "97", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-13T10:57:47.279+0700"), 
-    "updatedAt" : ISODate("2020-11-13T10:57:47.279+0700")
-}
-{ 
-    "_id" : ObjectId("5fae0443e737bc4b7a947645"), 
-    "isDeleted" : true, 
-    "name" : "TTTT", 
-    "type" : "tinh", 
-    "slug" : "tttt", 
-    "name_with_type" : "Tỉnh TTTT", 
-    "code" : "98", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-13T10:57:55.088+0700"), 
-    "updatedAt" : ISODate("2020-11-13T10:57:55.088+0700")
-}
-{ 
-    "_id" : ObjectId("5fae044be737bc4b7a947646"), 
-    "isDeleted" : true, 
-    "name" : "TPTP", 
-    "type" : "thanh-pho", 
-    "slug" : "tptp", 
-    "name_with_type" : "Thành Phố TPTP", 
-    "code" : "99", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-13T10:58:03.758+0700"), 
-    "updatedAt" : ISODate("2020-11-16T11:23:12.972+0700")
-}
-{ 
-    "_id" : ObjectId("5fae045ce737bc4b7a947647"), 
-    "isDeleted" : true, 
-    "name" : "TPTPTP", 
-    "type" : "thanh-pho", 
-    "slug" : "tptptp", 
-    "name_with_type" : "Thành Phố TPTPTP", 
-    "code" : "100", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-13T10:58:20.684+0700"), 
-    "updatedAt" : ISODate("2020-11-13T10:58:20.684+0700")
-}
-{ 
-    "_id" : ObjectId("5fae0467e737bc4b7a947648"), 
-    "isDeleted" : true, 
-    "name" : "TPTPTPTP", 
-    "type" : "thanh-pho", 
-    "slug" : "tptptptp", 
-    "name_with_type" : "Thành Phố TPTPTPTP", 
-    "code" : "101", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-13T10:58:31.638+0700"), 
-    "updatedAt" : ISODate("2020-11-16T11:23:09.255+0700")
-}
-{ 
-    "_id" : ObjectId("5fae1c890f2eff4c3d43e0d8"), 
-    "isDeleted" : true, 
-    "name" : "113", 
-    "type" : "tinh", 
-    "slug" : "113", 
-    "name_with_type" : "Tỉnh 113", 
-    "code" : "102", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-13T12:41:29.601+0700"), 
-    "updatedAt" : ISODate("2020-11-13T12:41:29.601+0700")
-}
-{ 
-    "_id" : ObjectId("5fb1fee7a6803157419e1bcc"), 
-    "isDeleted" : true, 
-    "name" : "TTT", 
-    "type" : "tinh", 
-    "slug" : "ttt", 
-    "name_with_type" : "Tỉnh TTT", 
-    "code" : "103", 
-    "createdBy" : ObjectId("5f34d3c9f697736fc8791195"), 
-    "updatedBy" : ObjectId("5f34d3c9f697736fc8791195"), 
-    "createdAt" : ISODate("2020-11-16T11:24:07.189+0700"), 
-    "updatedAt" : ISODate("2020-11-16T11:39:59.552+0700")
-}
-{ 
-    "_id" : ObjectId("5fb242bba7e55459b3e351f2"), 
-    "isDeleted" : true, 
-    "name" : "Độc cô cầu xin", 
-    "type" : "tinh", 
-    "slug" : "doc-co-cau-xin", 
-    "name_with_type" : "Tỉnh Độc cô cầu xin", 
-    "code" : "104", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-16T16:13:31.918+0700"), 
-    "updatedAt" : ISODate("2020-11-16T16:14:22.634+0700")
-}
-{ 
-    "_id" : ObjectId("5fb2894fa7e55459b3e35200"), 
-    "isDeleted" : true, 
-    "name" : "123", 
-    "type" : "tinh", 
-    "slug" : "123", 
-    "name_with_type" : "Tỉnh 123", 
-    "code" : "105", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-16T21:14:39.171+0700"), 
-    "updatedAt" : ISODate("2020-11-16T21:14:42.917+0700")
-}
-{ 
-    "_id" : ObjectId("5fb28b97a7e55459b3e35204"), 
-    "isDeleted" : true, 
-    "name" : "001-Tỉnh", 
-    "type" : "tinh", 
-    "slug" : "001-tinh", 
-    "name_with_type" : "Tỉnh 001-Tỉnh", 
-    "code" : "106", 
-    "createdBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "updatedBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "createdAt" : ISODate("2020-11-16T21:24:23.367+0700"), 
-    "updatedAt" : ISODate("2020-11-16T21:37:28.043+0700")
-}
-{ 
-    "_id" : ObjectId("5fb28bcba7e55459b3e35205"), 
-    "isDeleted" : true, 
-    "name" : "002-Thành phố", 
-    "type" : "thanh-pho", 
-    "slug" : "002-thanh-pho", 
-    "name_with_type" : "Thành Phố 002-Thành phố", 
-    "code" : "107", 
-    "createdBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "updatedBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "createdAt" : ISODate("2020-11-16T21:25:15.276+0700"), 
-    "updatedAt" : ISODate("2020-11-16T21:38:25.378+0700")
-}
-{ 
-    "_id" : ObjectId("5fb34137a7e55459b3e35221"), 
-    "isDeleted" : true, 
-    "name" : "Tỉnh 01", 
-    "type" : "tinh", 
-    "slug" : "tinh-01", 
-    "name_with_type" : "Tỉnh Tỉnh 01", 
-    "code" : "108", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-17T10:19:19.143+0700"), 
-    "updatedAt" : ISODate("2020-11-17T11:13:56.531+0700")
-}
-{ 
-    "_id" : ObjectId("5fb34dbc3e51d65ea7e7f66c"), 
-    "isDeleted" : true, 
-    "name" : "Sunrise", 
-    "type" : "thanh-pho", 
-    "slug" : "sunrise", 
-    "name_with_type" : "Thành Phố Sunrise", 
-    "code" : "109", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-17T11:12:44.171+0700"), 
-    "updatedAt" : ISODate("2020-11-17T11:23:47.218+0700")
-}
-{ 
-    "_id" : ObjectId("5fb350aa3c2bfa5f31e1741f"), 
-    "isDeleted" : true, 
-    "name" : "PP", 
-    "type" : "tinh", 
-    "slug" : "pp", 
-    "name_with_type" : "Tỉnh PP", 
-    "code" : "110", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-17T11:25:14.637+0700"), 
-    "updatedAt" : ISODate("2020-11-17T11:25:59.662+0700")
-}
-{ 
-    "_id" : ObjectId("5fb352133c2bfa5f31e17425"), 
-    "isDeleted" : true, 
-    "name" : "QQQ", 
-    "type" : "tinh", 
-    "slug" : "qqq", 
-    "name_with_type" : "Tỉnh QQQ", 
-    "code" : "111", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-17T11:31:15.531+0700"), 
-    "updatedAt" : ISODate("2020-11-17T11:31:31.304+0700")
-}
-{ 
-    "_id" : ObjectId("5fb3529d3c2bfa5f31e17429"), 
-    "isDeleted" : true, 
-    "name" : "Tỉnh 9", 
-    "type" : "tinh", 
-    "slug" : "tinh-9", 
-    "name_with_type" : "Tỉnh Tỉnh 9", 
-    "code" : "112", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-17T11:33:33.291+0700"), 
-    "updatedAt" : ISODate("2020-11-17T11:56:49.177+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4aa8ec6387d6b4dc67946"), 
-    "isDeleted" : true, 
-    "name" : "01", 
-    "type" : "tinh", 
-    "slug" : "01", 
-    "name_with_type" : "Tỉnh 01", 
-    "code" : "113", 
-    "createdBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "updatedBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "createdAt" : ISODate("2020-11-18T12:01:02.301+0700"), 
-    "updatedAt" : ISODate("2020-11-18T12:02:11.031+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4ab9fc6387d6b4dc6794b"), 
-    "isDeleted" : true, 
-    "name" : "01", 
-    "type" : "tinh", 
-    "slug" : "01", 
-    "name_with_type" : "Tỉnh 01", 
-    "code" : "114", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T12:05:35.457+0700"), 
-    "updatedAt" : ISODate("2020-11-18T12:06:00.619+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b0dcc6387d6b4dc67952"), 
-    "isDeleted" : true, 
-    "name" : "001-Tỉnh", 
-    "type" : "tinh", 
-    "slug" : "001-tinh", 
-    "name_with_type" : "Tỉnh 001-Tỉnh", 
-    "code" : "115", 
-    "createdBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "updatedBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "createdAt" : ISODate("2020-11-18T12:27:56.638+0700"), 
-    "updatedAt" : ISODate("2020-11-18T12:48:17.633+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b10bc6387d6b4dc67953"), 
-    "isDeleted" : true, 
-    "name" : "vv", 
-    "type" : "tinh", 
-    "slug" : "vv", 
-    "name_with_type" : "Tỉnh vv", 
-    "code" : "116", 
-    "createdBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "updatedBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "createdAt" : ISODate("2020-11-18T12:28:43.885+0700"), 
-    "updatedAt" : ISODate("2020-11-18T12:31:29.739+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b446c6387d6b4dc6795a"), 
-    "isDeleted" : true, 
-    "name" : "002", 
-    "type" : "tinh", 
-    "slug" : "002", 
-    "name_with_type" : "Tỉnh 002", 
-    "code" : "117", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T12:42:30.258+0700"), 
-    "updatedAt" : ISODate("2020-11-18T12:48:19.856+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b5acc6387d6b4dc67961"), 
-    "isDeleted" : true, 
-    "name" : "vvv", 
-    "type" : "tinh", 
-    "slug" : "vvv", 
-    "name_with_type" : "Tỉnh vvv", 
-    "code" : "118", 
-    "createdBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "updatedBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "createdAt" : ISODate("2020-11-18T12:48:28.690+0700"), 
-    "updatedAt" : ISODate("2020-11-18T12:48:33.813+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b5cbc6387d6b4dc67962"), 
-    "isDeleted" : true, 
-    "name" : "111", 
-    "type" : "tinh", 
-    "slug" : "111", 
-    "name_with_type" : "Tỉnh 111", 
-    "code" : "119", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T12:48:59.697+0700"), 
-    "updatedAt" : ISODate("2020-11-18T12:53:09.730+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b6d0c6387d6b4dc67966"), 
-    "isDeleted" : true, 
-    "name" : "12", 
-    "type" : "tinh", 
-    "slug" : "12", 
-    "name_with_type" : "Tỉnh 12", 
-    "code" : "120", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T12:53:20.211+0700"), 
-    "updatedAt" : ISODate("2020-11-18T12:53:35.191+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b6f3c6387d6b4dc67968"), 
-    "isDeleted" : true, 
-    "name" : "11", 
-    "type" : "tinh", 
-    "slug" : "11", 
-    "name_with_type" : "Tỉnh 11", 
-    "code" : "121", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T12:53:55.644+0700"), 
-    "updatedAt" : ISODate("2020-11-18T12:54:26.391+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b81acd6a656ed84f9b6f"), 
-    "isDeleted" : true, 
-    "name" : "đáas", 
-    "type" : "tinh", 
-    "slug" : "daas", 
-    "name_with_type" : "Tỉnh đáas", 
-    "code" : "122", 
-    "createdBy" : ObjectId("5f34d3c9f697736fc8791195"), 
-    "updatedBy" : ObjectId("5f34d3c9f697736fc8791195"), 
-    "createdAt" : ISODate("2020-11-18T12:58:50.544+0700"), 
-    "updatedAt" : ISODate("2020-11-18T13:43:33.992+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b844cd6a656ed84f9b75"), 
-    "isDeleted" : true, 
-    "name" : "naruto", 
-    "type" : "thanh-pho", 
-    "slug" : "naruto", 
-    "name_with_type" : "Thành Phố naruto", 
-    "code" : "123", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T12:59:32.457+0700"), 
-    "updatedAt" : ISODate("2020-11-18T13:00:47.734+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b894cd6a656ed84f9b7c"), 
-    "isDeleted" : true, 
-    "name" : "123", 
-    "type" : "tinh", 
-    "slug" : "123", 
-    "name_with_type" : "Tỉnh 123", 
-    "code" : "124", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T13:00:52.820+0700"), 
-    "updatedAt" : ISODate("2020-11-18T13:01:31.976+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b8edcd6a656ed84f9b82"), 
-    "isDeleted" : true, 
-    "name" : "111", 
-    "type" : "tinh", 
-    "slug" : "111", 
-    "name_with_type" : "Tỉnh 111", 
-    "code" : "125", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T13:02:21.911+0700"), 
-    "updatedAt" : ISODate("2020-11-18T13:02:25.842+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4b8f5cd6a656ed84f9b83"), 
-    "isDeleted" : true, 
-    "name" : "111", 
-    "type" : "tinh", 
-    "slug" : "111", 
-    "name_with_type" : "Tỉnh 111", 
-    "code" : "126", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T13:02:29.449+0700"), 
-    "updatedAt" : ISODate("2020-11-18T13:09:20.644+0700")
-}
-{ 
-    "_id" : ObjectId("5fb4bc579da8746f832af08d"), 
-    "isDeleted" : true, 
-    "name" : "ABC", 
-    "type" : "thanh-pho", 
-    "slug" : "abc", 
-    "name_with_type" : "Thành Phố ABC", 
-    "code" : "127", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2020-11-18T13:16:55.443+0700"), 
-    "updatedAt" : ISODate("2020-11-18T13:17:30.116+0700")
-}
-{ 
-    "_id" : ObjectId("5fb51753e876b8723ba3c011"), 
-    "isDeleted" : true, 
-    "name" : "001-Tỉnh", 
-    "type" : "tinh", 
-    "slug" : "001-tinh", 
-    "name_with_type" : "Tỉnh 001-Tỉnh", 
-    "code" : "128", 
-    "createdBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "updatedBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "createdAt" : ISODate("2020-11-18T19:45:07.285+0700"), 
-    "updatedAt" : ISODate("2020-11-18T20:57:07.962+0700")
-}
-{ 
-    "_id" : ObjectId("5fb5178ce876b8723ba3c012"), 
-    "isDeleted" : true, 
-    "name" : "002-Thành phố", 
-    "type" : "thanh-pho", 
-    "slug" : "002-thanh-pho", 
-    "name_with_type" : "Thành Phố 002-Thành phố", 
-    "code" : "129", 
-    "createdBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "updatedBy" : ObjectId("5f4a1322c9f62907ab7fc34f"), 
-    "createdAt" : ISODate("2020-11-18T19:46:04.132+0700"), 
-    "updatedAt" : ISODate("2020-11-18T20:57:04.724+0700")
-}
-{ 
-    "_id" : ObjectId("602e2d11d3d2eb32557c9b1c"), 
-    "isDeleted" : true, 
-    "name" : "465465", 
-    "type" : "tinh", 
-    "slug" : "465465", 
-    "name_with_type" : "Tỉnh 465465", 
-    "code" : "130", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2021-02-18T16:02:09.590+0700"), 
-    "updatedAt" : ISODate("2021-02-18T16:02:44.575+0700")
-}
-{ 
-    "_id" : ObjectId("602e2d32d3d2eb32557c9b1d"), 
-    "isDeleted" : true, 
-    "name" : "4654", 
-    "type" : "tinh", 
-    "slug" : "4654", 
-    "name_with_type" : "Tỉnh 4654", 
-    "code" : "131", 
-    "createdBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "updatedBy" : ObjectId("5f36248434afc4574cb6faf7"), 
-    "createdAt" : ISODate("2021-02-18T16:02:42.269+0700"), 
-    "updatedAt" : ISODate("2021-02-18T16:02:48.479+0700")
-}
+[
+    {
+        "name": "Hà Nội",
+        "slug": "ha-noi",
+        "type": "thanh-pho",
+        "name_with_type": "Thành phố Hà Nội",
+        "code": "01",
+        "isDeleted": false
+    },
+    {
+        "name": "Hà Giang",
+        "slug": "ha-giang",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Hà Giang",
+        "code": "02",
+        "isDeleted": false
+    },
+    {
+        "name": "Cao Bằng",
+        "slug": "cao-bang",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Cao Bằng",
+        "code": "04",
+        "isDeleted": false
+    },
+    {
+        "name": "Bắc Kạn",
+        "slug": "bac-kan",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bắc Kạn",
+        "code": "06",
+        "isDeleted": false
+    },
+    {
+        "name": "Tuyên Quang",
+        "slug": "tuyen-quang",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Tuyên Quang",
+        "code": "08",
+        "isDeleted": false
+    },
+    {
+        "name": "Lào Cai",
+        "slug": "lao-cai",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Lào Cai",
+        "code": "10",
+        "isDeleted": false
+    },
+    {
+        "name": "Điện Biên",
+        "slug": "dien-bien",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Điện Biên",
+        "code": "11",
+        "isDeleted": false
+    },
+    {
+        "name": "Lai Châu",
+        "slug": "lai-chau",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Lai Châu",
+        "code": "12",
+        "isDeleted": false
+    },
+    {
+        "name": "Sơn La",
+        "slug": "son-la",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Sơn La",
+        "code": "14",
+        "isDeleted": false
+    },
+    {
+        "name": "Yên Bái",
+        "slug": "yen-bai",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Yên Bái",
+        "code": "15",
+        "isDeleted": false
+    },
+    {
+        "name": "Hoà Bình",
+        "slug": "hoa-binh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Hoà Bình",
+        "code": "17",
+        "isDeleted": false
+    },
+    {
+        "name": "Thái Nguyên",
+        "slug": "thai-nguyen",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Thái Nguyên",
+        "code": "19",
+        "isDeleted": false
+    },
+    {
+        "name": "Lạng Sơn",
+        "slug": "lang-son",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Lạng Sơn",
+        "code": "20",
+        "isDeleted": false
+    },
+    {
+        "name": "Quảng Ninh",
+        "slug": "quang-ninh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Quảng Ninh",
+        "code": "22",
+        "isDeleted": false
+    },
+    {
+        "name": "Bắc Giang",
+        "slug": "bac-giang",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bắc Giang",
+        "code": "24",
+        "isDeleted": false
+    },
+    {
+        "name": "Phú Thọ",
+        "slug": "phu-tho",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Phú Thọ",
+        "code": "25",
+        "isDeleted": false
+    },
+    {
+        "name": "Vĩnh Phúc",
+        "slug": "vinh-phuc",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Vĩnh Phúc",
+        "code": "26",
+        "isDeleted": false
+    },
+    {
+        "name": "Bắc Ninh",
+        "slug": "bac-ninh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bắc Ninh",
+        "code": "27",
+        "isDeleted": false
+    },
+    {
+        "name": "Hải Dương",
+        "slug": "hai-duong",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Hải Dương",
+        "code": "30",
+        "isDeleted": false
+    },
+    {
+        "name": "Hải Phòng",
+        "slug": "hai-phong",
+        "type": "thanh-pho",
+        "name_with_type": "Thành phố Hải Phòng",
+        "code": "31",
+        "isDeleted": false
+    },
+    {
+        "name": "Hưng Yên",
+        "slug": "hung-yen",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Hưng Yên",
+        "code": "33",
+        "isDeleted": false
+    },
+    {
+        "name": "Thái Bình",
+        "slug": "thai-binh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Thái Bình",
+        "code": "34",
+        "isDeleted": false
+    },
+    {
+        "name": "Hà Nam",
+        "slug": "ha-nam",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Hà Nam",
+        "code": "35",
+        "isDeleted": false
+    },
+    {
+        "name": "Nam Định",
+        "slug": "nam-dinh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Nam Định",
+        "code": "36",
+        "isDeleted": false
+    },
+    {
+        "name": "Ninh Bình",
+        "slug": "ninh-binh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Ninh Bình",
+        "code": "37",
+        "isDeleted": false
+    },
+    {
+        "name": "Thanh Hóa",
+        "slug": "thanh-hoa",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Thanh Hóa",
+        "code": "38",
+        "isDeleted": false
+    },
+    {
+        "name": "Nghệ An",
+        "slug": "nghe-an",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Nghệ An",
+        "code": "40",
+        "isDeleted": false
+    },
+    {
+        "name": "Hà Tĩnh",
+        "slug": "ha-tinh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Hà Tĩnh",
+        "code": "42",
+        "isDeleted": false
+    },
+    {
+        "name": "Quảng Bình",
+        "slug": "quang-binh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Quảng Bình",
+        "code": "44",
+        "isDeleted": false
+    },
+    {
+        "name": "Quảng Trị",
+        "slug": "quang-tri",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Quảng Trị",
+        "code": "45",
+        "isDeleted": false
+    },
+    {
+        "name": "Thừa Thiên Huế",
+        "slug": "thua-thien-hue",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Thừa Thiên Huế",
+        "code": "46",
+        "isDeleted": false
+    },
+    {
+        "name": "Đà Nẵng",
+        "slug": "da-nang",
+        "type": "thanh-pho",
+        "name_with_type": "Thành phố Đà Nẵng",
+        "code": "48",
+        "isDeleted": false
+    },
+    {
+        "name": "Quảng Nam",
+        "slug": "quang-nam",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Quảng Nam",
+        "code": "49",
+        "isDeleted": false
+    },
+    {
+        "name": "Quảng Ngãi",
+        "slug": "quang-ngai",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Quảng Ngãi",
+        "code": "51",
+        "isDeleted": false
+    },
+    {
+        "name": "Bình Định",
+        "slug": "binh-dinh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bình Định",
+        "code": "52",
+        "isDeleted": false
+    },
+    {
+        "name": "Phú Yên",
+        "slug": "phu-yen",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Phú Yên",
+        "code": "54",
+        "isDeleted": false
+    },
+    {
+        "name": "Khánh Hòa",
+        "slug": "khanh-hoa",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Khánh Hòa",
+        "code": "56",
+        "isDeleted": false
+    },
+    {
+        "name": "Ninh Thuận",
+        "slug": "ninh-thuan",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Ninh Thuận",
+        "code": "58",
+        "isDeleted": false
+    },
+    {
+        "name": "Bình Thuận",
+        "slug": "binh-thuan",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bình Thuận",
+        "code": "60",
+        "isDeleted": false
+    },
+    {
+        "name": "Kon Tum",
+        "slug": "kon-tum",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Kon Tum",
+        "code": "62",
+        "isDeleted": false
+    },
+    {
+        "name": "Gia Lai",
+        "slug": "gia-lai",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Gia Lai",
+        "code": "64",
+        "isDeleted": false
+    },
+    {
+        "name": "Đắk Lắk",
+        "slug": "dak-lak",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Đắk Lắk",
+        "code": "66",
+        "isDeleted": false
+    },
+    {
+        "name": "Đắk Nông",
+        "slug": "dak-nong",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Đắk Nông",
+        "code": "67",
+        "isDeleted": false
+    },
+    {
+        "name": "Lâm Đồng",
+        "slug": "lam-dong",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Lâm Đồng",
+        "code": "68",
+        "isDeleted": false
+    },
+    {
+        "name": "Bình Phước",
+        "slug": "binh-phuoc",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bình Phước",
+        "code": "70",
+        "isDeleted": false
+    },
+    {
+        "name": "Tây Ninh",
+        "slug": "tay-ninh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Tây Ninh",
+        "code": "72",
+        "isDeleted": false
+    },
+    {
+        "name": "Bình Dương",
+        "slug": "binh-duong",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bình Dương",
+        "code": "74",
+        "isDeleted": false
+    },
+    {
+        "name": "Đồng Nai",
+        "slug": "dong-nai",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Đồng Nai",
+        "code": "75",
+        "isDeleted": false
+    },
+    {
+        "name": "Bà Rịa - Vũng Tàu",
+        "slug": "ba-ria---vung-tau",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bà Rịa - Vũng Tàu",
+        "code": "77",
+        "isDeleted": false
+    },
+    {
+        "name": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
+        "type": "thanh-pho",
+        "name_with_type": "Thành phố Hồ Chí Minh",
+        "code": "79",
+        "isDeleted": false
+    },
+    {
+        "name": "Long An",
+        "slug": "long-an",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Long An",
+        "code": "80",
+        "isDeleted": false
+    },
+    {
+        "name": "Tiền Giang",
+        "slug": "tien-giang",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Tiền Giang",
+        "code": "82",
+        "isDeleted": false
+    },
+    {
+        "name": "Bến Tre",
+        "slug": "ben-tre",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bến Tre",
+        "code": "83",
+        "isDeleted": false
+    },
+    {
+        "name": "Trà Vinh",
+        "slug": "tra-vinh",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Trà Vinh",
+        "code": "84",
+        "isDeleted": false
+    },
+    {
+        "name": "Vĩnh Long",
+        "slug": "vinh-long",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Vĩnh Long",
+        "code": "86",
+        "isDeleted": false
+    },
+    {
+        "name": "Đồng Tháp",
+        "slug": "dong-thap",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Đồng Tháp",
+        "code": "87",
+        "isDeleted": false
+    },
+    {
+        "name": "An Giang",
+        "slug": "an-giang",
+        "type": "tinh",
+        "name_with_type": "Tỉnh An Giang",
+        "code": "89",
+        "isDeleted": false
+    },
+    {
+        "name": "Kiên Giang",
+        "slug": "kien-giang",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Kiên Giang",
+        "code": "91",
+        "isDeleted": false
+    },
+    {
+        "name": "Cần Thơ",
+        "slug": "can-tho",
+        "type": "thanh-pho",
+        "name_with_type": "Thành phố Cần Thơ",
+        "code": "92",
+        "isDeleted": false
+    },
+    {
+        "name": "Hậu Giang",
+        "slug": "hau-giang",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Hậu Giang",
+        "code": "93",
+        "isDeleted": false
+    },
+    {
+        "name": "Sóc Trăng",
+        "slug": "soc-trang",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Sóc Trăng",
+        "code": "94",
+        "isDeleted": false
+    },
+    {
+        "name": "Bạc Liêu",
+        "slug": "bac-lieu",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Bạc Liêu",
+        "code": "95",
+        "isDeleted": false
+    },
+    {
+        "name": "Cà Mau",
+        "slug": "ca-mau",
+        "type": "tinh",
+        "name_with_type": "Tỉnh Cà Mau",
+        "code": "96",
+        "isDeleted": false
+    }
+]
